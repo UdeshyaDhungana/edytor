@@ -1,0 +1,12 @@
+
+| Escape Sequence | Function                                           |
+|-----------------|----------------------------------------------------|
+| `\x1b[2J`       | Clear the entire screen                             |
+| `\x1b[H`        | Move the cursor to the home position (top-left)     |
+| `\x1b[6n`       | Get the cursor position (reports as `\x1b[row;colR`)|
+| `\x1b[99C`      | Move the cursor 99 columns forward                 |
+| `\x1b[99B`      | Move the cursor 99 rows down                       |
+| `\x1b[K`        | Erase from the current cursor position to the end of the current line |
+| `\x1b[?25l`     | Hide the cursor                                    |
+| `\x1b[?25H`     | Show the cursor                                    |
+
